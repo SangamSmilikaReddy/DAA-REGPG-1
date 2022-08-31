@@ -288,3 +288,28 @@ body{
         margin-right: 30px;
     }
 }
+@media (max-width:500px){
+    .slide {
+        float: left;
+        height: 500px;
+        width: 500px;
+      }
+      .slide-wrapper {
+        width: calc(500px * 4);
+        animation: slide 10s ease infinite;
+      }
+      @keyframes slide {
+        20% {
+          margin-left: 0px;
+        }
+        40% {
+          margin-left: calc(-500px * 1);
+        }
+        60% {
+          margin-left: calc(-500px * 2);
+        }
+        80% {
+          margin-left: calc(-500px * 3);
+        }
+      }
+}
