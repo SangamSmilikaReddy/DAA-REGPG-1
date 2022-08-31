@@ -288,7 +288,7 @@ body{
         margin-right: 30px;
     }
 }
-@media (max-width:500px){
+@media (max-width:600px){
     #slideshow {
     overflow: hidden;
     height: 400px;
