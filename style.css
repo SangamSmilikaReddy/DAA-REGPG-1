@@ -290,11 +290,11 @@ body{
 }
 @media (max-width:600px){
     #slideshow {
-    overflow: hidden;
-    height: 400px;
-    width: 400px;
-    margin: 0 auto;
-  }
+        overflow: hidden;
+        height: 400px;
+        width: 400px;
+        margin: 0 auto;
+     }
     .slide {
         float: left;
         height: 400px;
@@ -317,5 +317,8 @@ body{
         80% {
           margin-left: calc(-400px * 3);
         }
-
+      }
+      .bbutton{
+        left: 5em;
+       }
 }
